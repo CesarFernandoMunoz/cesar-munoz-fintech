@@ -1,66 +1,67 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos y Dashboards Financieros | César Muñoz</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
-        header { background-color: #2874C5; color: white; padding: 20px; text-align: center; }
-        nav { background: #1a4b7c; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        section { padding: 20px; }
-        .curso, .dashboard { background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px; margin-bottom: 20px; }
-        footer { background: #2874C5; color: white; text-align: center; padding: 10px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>César Muñoz | Power BI y Finanzas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="hero">
+    <div class="overlay">
+      <h1>César Muñoz</h1>
+      <p>Transforma tu contabilidad con Power BI e Inteligencia Artificial</p>
+      <a href="#cursos" class="btn-primary">Ver Cursos</a>
+    </div>
+  </header>
 
-<header>
-    <h1>César Muñoz</h1>
-    <p>Cursos de Power BI Aplicado a Finanzas y Contabilidad</p>
-</header>
+  <nav>
+    <ul>
+      <li><a href="#cursos">Cursos</a></li>
+      <li><a href="#dashboards">Dashboards</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
 
-<nav>
-    <a href="#cursos">Cursos Disponibles</a>
-    <a href="#dashboards">Dashboards Demo</a>
-    <a href="#contacto">Contacto</a>
-</nav>
-
-<section id="cursos">
-    <h2>Cursos Disponibles</h2>
-    <div class="curso">
+  <main>
+    <section id="cursos">
+      <h2>Cursos Disponibles</h2>
+      <div class="card">
         <h3>Power BI para Contadores y Analistas Financieros</h3>
-        <p>Aprende a construir dashboards financieros con datos reales y aplica análisis crediticio, automatización de reportes y herramientas de IA.</p>
-        <p><strong>Duración:</strong> 30 horas | <strong>Modalidad:</strong> Online / Grabado</p>
-        <p><strong>Incluye:</strong> Archivos prácticos, plantillas, certificado y acceso a comunidad privada.</p>
-    </div>
-</section>
+        <p>Aprende a construir dashboards con datos reales. Aplica análisis crediticio y herramientas de IA.</p>
+        <ul>
+          <li><strong>Duración:</strong> 30 horas</li>
+          <li><strong>Modalidad:</strong> Online / Grabado</li>
+          <li><strong>Incluye:</strong> Archivos prácticos, certificado, comunidad privada</li>
+        </ul>
+        <a class="btn-secondary" href="#">Inscribirse</a>
+      </div>
+    </section>
 
-<section id="dashboards">
-    <h2>Dashboards Demo</h2>
-    <div class="dashboard">
-        <h3>Dashboard de Score Crediticio Empresarial</h3>
-        <p>Con base en la información pública de más de 133,000 empresas de Ecuador, este informe muestra cómo evaluar riesgo financiero y clasificar clientes.</p>
-        <a href="#" target="_blank">Ver demo (proximamente)</a>
-    </div>
-    <div class="dashboard">
-        <h3>Informe de Rentabilidad y Eficiencia Operativa</h3>
-        <p>Modelo desarrollado para TONICOMSA SA que permite visualizar KPIs críticos de desempeño contable y financiero.</p>
-        <a href="#" target="_blank">Ver demo (proximamente)</a>
-    </div>
-</section>
+    <section id="dashboards">
+      <h2>Dashboards Demo</h2>
+      <div class="card">
+        <h3>Score Crediticio Empresarial</h3>
+        <p>Con datos de 133.000 empresas del Ecuador. Evalúa riesgo financiero y clasifica clientes.</p>
+        <a class="btn-secondary" href="#">Ver Demo</a>
+      </div>
+      <div class="card">
+        <h3>Informe de Rentabilidad y Eficiencia</h3>
+        <p>KPIs críticos de desempeño contable y financiero. Desarrollado en TONICOMSA SA.</p>
+        <a class="btn-secondary" href="#">Ver Demo</a>
+      </div>
+    </section>
 
-<section id="contacto">
-    <h2>Contacto</h2>
-    <p>Para más información, inscripciones o propuestas institucionales, escríbeme a:</p>
-    <p><strong>Email:</strong> cesar.munoz@tonicomsa.com</p>
-    <p><strong>Teléfono:</strong> 0983501807</p>
-</section>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tienes dudas o quieres contratar una clase personalizada? Escríbeme a: <a href="mailto:zambitacumy@hotmail.com">zambitacumy@hotmail.com</a></p>
+    </section>
+  </main>
 
-<footer>
-    <p>&copy; 2025 César Muñoz | Quito - Ecuador</p>
-</footer>
-
+  <footer>
+    <p>© 2025 César Muñoz. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
